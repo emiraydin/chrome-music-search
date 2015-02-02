@@ -1,0 +1,38 @@
+body {
+	width: 300px;
+	height: 40px;
+}
+
+#search {
+	font-size: 1.5em;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: 6px;
+	float: left;
+	display: inline-block;
+	width: 220px;
+}
+
+#previous, #next {
+	width: 32px;
+	height: 38px;
+	float: left;
+	cursor: pointer;
+}
+
+#previous {
+	background: url("img/arrow-left.png");
+	margin-right: 6px;
+}
+
+#previous:hover {
+	background: url("img/left-over.png");
+}
+
+#next {
+	background: url("img/arrow-right.png");
+	margin-left: 6px;
+}
+
+#next:hover {
+	background: url("img/right-over.png");
+}
