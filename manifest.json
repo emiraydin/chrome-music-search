@@ -1,0 +1,27 @@
+{
+    "name": "Find Music on Google",
+    "description": "Search Google for music, navigate and download.",
+    "version": "0.0.1",
+    "manifest_version": 2,
+	"icons": {
+		"16": "img/icon-16.png",
+		"24": "img/icon-24.png",
+		"32": "img/icon-32.png",
+		"128": "img/icon-128.png"
+	},
+    "browser_action": {
+        "default_title": "Find Music on Google",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "page": "popup.html",
+        "persistent": false
+    },
+    "permissions": [
+    	"background",
+    	"tabs",
+        "activeTab",
+        "http://*/*", 
+        "https://*/*"
+    ]
+}
